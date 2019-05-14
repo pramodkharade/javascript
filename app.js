@@ -22,3 +22,16 @@ console.log('forEach loop');
 companies.forEach(function(company){
 	console.log(company);
 });
+
+
+/**filter function**/
+
+/***get 21 and older**/
+
+let canDrink=[];
+for (let i = ages.length - 1; i >= 0; i--) {
+	if(ages[i]>21){
+		canDrink.push(ages[i]);
+	}
+}
+console.log(canDrink);
