@@ -35,3 +35,12 @@ for (let i = ages.length - 1; i >= 0; i--) {
 	}
 }
 console.log(canDrink);
+
+console.log('*****filter****');
+
+const canDrinks = ages.filter((age)=>{
+	if(age>21){
+		return true;
+	}
+});
+console.log(canDrinks);
