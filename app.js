@@ -44,3 +44,8 @@ const canDrinks = ages.filter((age)=>{
 	}
 });
 console.log(canDrinks);
+
+console.log('*****filter Efficent****');
+
+const canDrinksE = ages.filter((age)=> age >= 21);
+console.log(canDrinksE);
