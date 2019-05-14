@@ -65,3 +65,9 @@ console.log(' E Filter retail companies');
 const retailCompaniesE = companies.filter((company)=> company.category==='Retail');
 
 console.log(retailCompaniesE);
+
+// Get 80s companies
+console.log(' eighties companies');
+const eightiesCompanies = companies.filter((company)=> (company.start >='1980' && company.end < '1990'));
+
+console.log(eightiesCompanies);
