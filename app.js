@@ -84,4 +84,10 @@ const companiesName = companies.map((company)=> company.name);
 
 console.log(companiesName);
 
+/*****map with template string*****/
+console.log('create array of company name With template string:');
+const companiesNametemp = companies.map((company)=> `${company.name} [${company.start} - ${company.end}]`);
+
+console.log(companiesNametemp);
+
 
