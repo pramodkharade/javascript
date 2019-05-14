@@ -49,3 +49,19 @@ console.log('*****filter Efficent****');
 
 const canDrinksE = ages.filter((age)=> age >= 21);
 console.log(canDrinksE);
+
+// Filter retail companies
+console.log('Filter retail companies');
+const retailCompanies = companies.filter((company)=>{
+	if(company.category==='Retail'){
+		return true;
+	}
+});
+
+console.log(retailCompanies);
+
+// Filter retail companies Efficent
+console.log(' E Filter retail companies');
+const retailCompaniesE = companies.filter((company)=> company.category==='Retail');
+
+console.log(retailCompaniesE);
