@@ -110,3 +110,14 @@ console.log(sortedcompaniesT);
 console.log('Sort ages:');
 const sortedAges = ages.sort((a1,a2)=> a1-a2);
 console.log(sortedAges);
+
+/***reduce function to total the age***/
+console.log('Reduce function:');
+const ageSum = ages.reduce((total,age)=> total + age,0);
+console.log(ageSum);
+
+
+/***reduce function to total the company***/
+console.log('Reduce function Comapny age:');
+const companySum = companies.reduce((total,company)=> total + (company.end - company.start),0);
+console.log(companySum);
