@@ -101,3 +101,8 @@ const sortedcompanies = companies.sort(function(c1,c2){
 });
 console.log(sortedcompanies);
 
+/***Sort with ternary function***/
+console.log('Sort function Ternary:');
+const sortedcompaniesT = companies.sort((a,b)=>(a.start < b.start ? 1:-1));
+console.log(sortedcompaniesT);
+
