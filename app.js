@@ -90,7 +90,7 @@ const companiesNametemp = companies.map((company)=> `${company.name} [${company.
 
 console.log(companiesNametemp);
 
-/***Sort function***/
+/***Sort function: Comapny by start***/
 console.log('Sort function:');
 const sortedcompanies = companies.sort(function(c1,c2){
 	if(c1.start > c2.start){
@@ -106,3 +106,7 @@ console.log('Sort function Ternary:');
 const sortedcompaniesT = companies.sort((a,b)=>(a.start < b.start ? 1:-1));
 console.log(sortedcompaniesT);
 
+/***Ages sort****/
+console.log('Sort ages:');
+const sortedAges = ages.sort((a1,a2)=> a1-a2);
+console.log(sortedAges);
