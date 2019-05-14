@@ -90,4 +90,14 @@ const companiesNametemp = companies.map((company)=> `${company.name} [${company.
 
 console.log(companiesNametemp);
 
+/***Sort function***/
+console.log('Sort function:');
+const sortedcompanies = companies.sort(function(c1,c2){
+	if(c1.start > c2.start){
+		return 1
+	}else{
+		return -1;
+	}
+});
+console.log(sortedcompanies);
 
