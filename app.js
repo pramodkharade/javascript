@@ -77,3 +77,11 @@ console.log('Get companies that lasted 10 years or more');
 const lastedcompanies = companies.filter((company)=>(company.end - company.start >=10));
 
 console.log(lastedcompanies);
+
+/*****map*****/
+console.log('create array of company name:');
+const companiesName = companies.map((company)=> company.name);
+
+console.log(companiesName);
+
+
