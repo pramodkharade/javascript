@@ -36,3 +36,16 @@ function createPost(post){
 }
 
 createPost({title:'Promise post',body:'Promise body'}).then(getPosts).catch(error=> console.log(error));
+
+
+/***async / await /fetch***/
+
+
+async function getUsers(){
+	const res = await fetch('https://jsonplaceholder.typicode.com/users');
+
+	const data = await res.json();
+	console.log(data);
+}
+
+getUsers();
