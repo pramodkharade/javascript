@@ -14,7 +14,7 @@ function getPosts(){
 		posts.forEach((post,index)=>{
 			output += `<li>${post.title}</li>`;
 		});
-		document.getElementById('postwrapper').innerHTML = output;
+		document.getElementById('callbackpostwrapper').innerHTML = output;
 	},1000);
 }
 
