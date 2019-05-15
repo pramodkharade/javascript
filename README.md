@@ -7,3 +7,7 @@ filter()
 map()
 sort()
 reduce()
+
+# CallBack functions
+#promises functions
+#async , await
