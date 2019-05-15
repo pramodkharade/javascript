@@ -9,5 +9,5 @@ sort()
 reduce()
 
 # CallBack functions
-#promises functions
-#async , await
+# promises functions
+# async , await
