@@ -1,0 +1,8 @@
+Q. What is the closure in  Javascript?
+A closure is the function having the access of the parent scope. its preserved the data for outside.
+
+A closure is a inner function that has the access of  outer function variables.
+For every closure has three scopes:
+1.Local scope(Own Scope)
+2. Outer functions Scope
+3. Global scope.
